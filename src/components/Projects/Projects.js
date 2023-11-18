@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import catholicconnect from "../../Assets/Projects/catholic_connect.png";
+import acare from "../../Assets/Projects/acare_india.jpeg";
+import hardhat from "../../Assets/Projects/hardhat.png";
+import phlenuCustomer from "../../Assets/Projects/phlenu_customer.png";
+import phlenuBusiness from "../../Assets/Projects/phlenubusinessicon.png";
+import phlenuDelivery from "../../Assets/Projects/phlenu_delivery.webp";
 
 function Projects() {
   return (
@@ -21,40 +21,74 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hardhat}
+              isBlog={false}
+              title="Hardhat"
+              description="Hardhat connects construction businesses to work more efficiently. It provides a way to connect with co-workers, manage health and safety in construction, and handle material management. This solution is built on top of Salesforce."
+              appStore="https://apps.apple.com/us/app/hardhat/id1543678167"
+              playStore="https://play.google.com/store/apps/details?id=com.hardhat.hardhat&hl=en_US"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={acare}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Acare India"
+              description="Acare india is the health care application . In this app containmany therapies. User can enroll the therapy via referral code andget some daily and weekly activities. There are many otherfeatures in app like :- Medication, articles , Reports and etc."
+              appStore="https://github.com/soumyajit4419/Chatify"
+              playStore="https://play.google.com/store/apps/details? id=com.abbott.epd.acare"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={phlenuCustomer}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Phlenu Customer"
+              description="Phlenu is eCommerce platform currently It's working in Ghana and Nigeria. Phlenu provide facility to merchant to sell the products online. Currently merchant selling products,deals,events and services using phlenu app. Customer can also start chat with merchant in the app."
+              appStore="https://apps.apple.com/in/app/phlenu-shopping/id1446910253"
+              playStore="https://play.google.com/store/apps/details?id=com.phlenu.application"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={phlenuBusiness}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Phlenu Business"
+              description="Phlenu is eCommerce platform currently It's working in Ghana and Nigeria. Phlenu provide facility to merchant to sell the products online. Currently merchant selling products,deals,events and services using phlenu app. Customer can also start chat with merchant in the app."
+              appStore="https://apps.apple.com/in/app/phlenu-business/id1446880518"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={phlenuDelivery}
+              isBlog={false}
+              title="Phlenu Delivery"
+              description="Phlenu is eCommerce platform currently It's working in Ghana and Nigeria. Phlenu provide facility to merchant to sell the products online. Currently merchant selling products,deals,events and services using phlenu app. Customer can also start chat with merchant in the app."
+              appStore="https://apps.apple.com/in/app/phlenu-delivery/id1483890270"
+              playStore="https://play.google.com/store/apps/details?id=com.phlenu.delivery"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+             <ProjectCard
+              imgPath={catholicconnect}
+              isBlog={false}
+              title="Catholic Connect"
+              description="Catholic connect is religions based project. This app created in react native. It's long running project and client continuous update this app.In this app people connect to the each other and connect with parish. Every people can create his own business and company and share his post ."
+              appStore="https://itunes.apple.com/us/app/catholic-connect/id1433546806?mt=8"
+              playStore="https://play.google.com/store/apps/details? id=com.catholicconnect&hl=en"
+            />
+          </Col>
+
+        {/*  <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -86,7 +120,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
