@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  Portfolio Website - v1.0<br/>
   <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
 </h2>
 <div align="center">
@@ -27,7 +27,7 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+I'm Lalit Kumar 📱 Mobile App Developer | 8 years of experience 🔥 Passionate about crafting user-friendly mobile applications 🚀 Constantly exp(https://github.com/lalitkumar50678/Portfolio). Thanks!
 
 ## Built With
 
